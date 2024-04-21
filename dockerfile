@@ -27,8 +27,8 @@ RUN echo $(whoami)
 RUN echo 'This is a docker container running debian slim docker, HOSTED BY AmbrosiaCloud Deploy' > ~/container.txt
 
 WORKDIR /app
-COPY * .
-RUN bun install
+COPY * ./
+RUN ~/.bun/bin/bun install
 
 EXPOSE 3333
 
