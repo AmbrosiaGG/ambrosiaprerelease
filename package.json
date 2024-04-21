@@ -7,7 +7,7 @@
     },
     "scripts": {
       "dev": "NODE_ENV=dev && bun run dev:css & bun .",
-      "dev:css": "tailwindcss -i \"./assets/css/styles.css\" -o \"./assets/css/tailwind.css\" --watch "
+      "dev:css": "tailwindcss -i \"./assets/global.css\" -o \"./assets/tailwind.css\" --watch "
     },
     "peerDependencies": {
       "typescript": "^5.0.0"
