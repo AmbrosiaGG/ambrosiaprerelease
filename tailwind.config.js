@@ -49,6 +49,7 @@ export default {
     }
   },
   plugins: [
+    require('preline/plugin'),
     require("@catppuccin/tailwindcss")({
       // prefix to use, e.g. `text-pink` becomes `text-ctp-pink`.
       // default is `false`, which means no prefix
